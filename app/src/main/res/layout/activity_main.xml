@@ -16,7 +16,7 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="@string/title_string"
-           android:textSize="36sp"
+           android:textSize="38sp"
            android:layout_marginBottom="50dp"/>
 
        <TextView
@@ -25,7 +25,7 @@
            android:layout_height="wrap_content"
            android:text="@string/teamA_title_string"
            android:textSize="28sp"
-           tools:layout_editor_absoluteX="30dp"
+           tools:layout_editor_absoluteX="32dp"
            tools:layout_editor_absoluteY="112dp" />
        <TextView
            android:id="@+id/teamA_score_textview"
