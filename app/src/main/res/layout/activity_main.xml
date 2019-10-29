@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/green"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:orientation="vertical">
 
         <TextView
@@ -17,30 +17,35 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
             android:text="@string/title_string"
-            android:textSize="36sp" />
+            android:textAlignment="textStart"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="46sp" />
 
         <TextView
             android:id="@+id/teamA_textview"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/teamA_title_string"
-            android:textSize="28sp"
+            android:textSize="32sp"
+            android:textColor="@color/yellow"
             tools:layout_editor_absoluteX="30dp"
             tools:layout_editor_absoluteY="112dp" />
 
         <TextView
             android:id="@+id/teamA_score_textview"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
             android:layout_height="wrap_content"
             android:text="10"
-            android:textSize="28sp"
+
+            android:textSize="68sp"
             tools:layout_editor_absoluteX="63dp"
             tools:layout_editor_absoluteY="186dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center"
             android:orientation="horizontal">
 
             <Button
@@ -80,6 +85,7 @@
             android:layout_height="wrap_content"
             android:text="@string/teamB_title_string"
             android:textSize="28sp"
+            android:textColor="@color/blue"
             tools:layout_editor_absoluteX="263dp"
             tools:layout_editor_absoluteY="112dp" />
 
@@ -88,6 +94,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="10"
+            android:textStyle="bold"
             android:textSize="28sp"
             tools:layout_editor_absoluteX="63dp"
             tools:layout_editor_absoluteY="186dp" />
@@ -126,6 +133,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
+        style="@style/radiobuttonTheme"
         android:orientation="vertical">
 
         <RadioButton

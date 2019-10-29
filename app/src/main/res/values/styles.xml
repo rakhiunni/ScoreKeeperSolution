@@ -8,10 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="ButtonTheme">
+    <style name="ButtonTheme" parent="TextAppearance.AppCompat.Button">
         <!-- Customize your theme here. -->
-        <item name="android:background">#2196F3</item>
+        <item name="android:background">#02131F</item>
         <item name="android:textColor">#ffffff</item>
     </style>
-
+<style name="radiobuttonTheme" >
+    <item name="android:background">#F10357</item>
+    <item name="android:textColor">#FFC107</item>
+</style>
 </resources>
